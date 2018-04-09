@@ -14,6 +14,11 @@
 		CF70AA67207BBD6400CC70A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF70AA66207BBD6400CC70A0 /* Assets.xcassets */; };
 		CF70AA6A207BBD6400CC70A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF70AA68207BBD6400CC70A0 /* LaunchScreen.storyboard */; };
 		CF70AA72207BBE4F00CC70A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF70AA71207BBE4F00CC70A0 /* GoogleService-Info.plist */; };
+		CF70AA77207C075500CC70A0 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70AA76207C075500CC70A0 /* FancyView.swift */; };
+		CF70AA7A207C1BE300CC70A0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70AA79207C1BE300CC70A0 /* Constants.swift */; };
+		CF70AA7C207C1F2400CC70A0 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70AA7B207C1F2400CC70A0 /* RoundBtn.swift */; };
+		CF70AA7E207C21A900CC70A0 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70AA7D207C21A900CC70A0 /* FancyField.swift */; };
+		CF70AA80207C258200CC70A0 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70AA7F207C258200CC70A0 /* FancyBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		CF70AA69207BBD6400CC70A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF70AA6B207BBD6400CC70A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF70AA71207BBE4F00CC70A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF70AA76207C075500CC70A0 /* FancyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		CF70AA79207C1BE300CC70A0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CF70AA7B207C1F2400CC70A0 /* RoundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		CF70AA7D207C21A900CC70A0 /* FancyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		CF70AA7F207C258200CC70A0 /* FancyBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		D008E9B032D7B9C40697B1E9 /* Pods-devslopes-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-social/Pods-devslopes-social.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +90,7 @@
 		CF70AA5E207BBD6400CC70A0 /* devslopes-social */ = {
 			isa = PBXGroup;
 			children = (
+				CF70AA78207C1BA200CC70A0 /* Util */,
 				CF70AA75207BC2EB00CC70A0 /* Controller */,
 				CF70AA74207BC2DA00CC70A0 /* View */,
 				CF70AA73207BC2CB00CC70A0 /* Model */,
@@ -103,6 +114,10 @@
 		CF70AA74207BC2DA00CC70A0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CF70AA76207C075500CC70A0 /* FancyView.swift */,
+				CF70AA7B207C1F2400CC70A0 /* RoundBtn.swift */,
+				CF70AA7D207C21A900CC70A0 /* FancyField.swift */,
+				CF70AA7F207C258200CC70A0 /* FancyBtn.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -113,6 +128,14 @@
 				CF70AA61207BBD6400CC70A0 /* SignInVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF70AA78207C1BA200CC70A0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CF70AA79207C1BE300CC70A0 /* Constants.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF70AA7E207C21A900CC70A0 /* FancyField.swift in Sources */,
 				CF70AA62207BBD6400CC70A0 /* SignInVC.swift in Sources */,
+				CF70AA7C207C1F2400CC70A0 /* RoundBtn.swift in Sources */,
 				CF70AA60207BBD6400CC70A0 /* AppDelegate.swift in Sources */,
+				CF70AA77207C075500CC70A0 /* FancyView.swift in Sources */,
+				CF70AA7A207C1BE300CC70A0 /* Constants.swift in Sources */,
+				CF70AA80207C258200CC70A0 /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
